@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
  export const Navbar = () => {
     return (
-        <nav class="navbar navbar-expand-lg navbar-light bg-secondary ">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
             <a class="navbar-brand " style={{color:"#aa262d", fontFamily:"sans-serif"}} href="#">Netflix</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -32,7 +32,15 @@ import { Link } from 'react-router-dom'
                     <li class="nav-item">
                         <Link class="nav-link" to="/Team">Team</Link>
                     </li>
-                                        
+                    <li class="nav-item">
+                       <Link class="nav-link" to="/usestatedemo1">Usestatedemo1</Link> 
+                    </li>
+                    <li class="nav-item">
+                        <Link class="nav-link" to="/usestatedemo2">usestatedemo2</Link>
+                    </li>
+                    <li class="nav-item">
+                        <Link class="nav-link" to="/usestatedemo3">usestatedemo3</Link>
+                    </li>                   
                 </ul>
                
             </div>

@@ -13,6 +13,8 @@ import { Netflixhome } from './component/Netflixhome';
 import { Netflixshow } from './component/Netflixshow';
 import { Teams } from './component/Teams';
 import { Routes,Route } from 'react-router-dom';
+import { UseStateDemo1 } from './component/UseStateDemo1';
+import { UseStateDemo2 } from './component/UseStateDemo2';
 
 
 //import './App.css'
@@ -36,7 +38,10 @@ var Rajdip={
       
       <Routes>
         <Route path='/team' element ={<teams/>}></Route>
-      </Routes>
+        <Route path="/usestatedemo1" element ={<UseStateDemo1/>}></Route>
+        <Route path="/usestatedemo2" element ={<UseStateDemo2/>}></Route>
+        <Route path="/usestatedemo3" element ={<usestatedemo3/>}></Route>
+        </Routes>
     </div>
   );
 } 
