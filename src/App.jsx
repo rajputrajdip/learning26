@@ -15,7 +15,11 @@ import { Teams } from './component/Teams';
 import { Routes,Route } from 'react-router-dom';
 import { UseStateDemo1 } from './component/UseStateDemo1';
 import { UseStateDemo2 } from './component/UseStateDemo2';
-
+import { Employees } from './component/Employees';
+import { FormDemo1 } from './form/FormDemo1';
+import { FormDemo2 } from './form/FormDemo2';
+import { FormDemo3 } from './form/FormDemo3';
+import { FormDemo4 } from './form/FormDemo4';
 
 //import './App.css'
 
@@ -34,13 +38,18 @@ var Rajdip={
 
   return (
     <div>
-      <Navbar></Navbar>
-      
+      <Navbar></Navbar> 
       <Routes>
-        <Route path='/team' element ={<teams/>}></Route>
+        <Route path='/team' element ={<Teams/>}></Route>
         <Route path="/usestatedemo1" element ={<UseStateDemo1/>}></Route>
         <Route path="/usestatedemo2" element ={<UseStateDemo2/>}></Route>
-        <Route path="/usestatedemo3" element ={<usestatedemo3/>}></Route>
+        <Route path="/usestatedemo3" element ={<useStatedemo3/>}></Route>
+        <Route path="/Employees"element={<Employees/>}></Route>
+        <Route path="/Formdemo1"element={<FormDemo1/>}></Route>
+        <Route path="/Formdemo2"element={<FormDemo2/>}></Route>
+        <Route path="/Formdemo3"element={<FormDemo3/>}></Route>
+        <Route path="/Formdemo4"element={<FormDemo4/>}></Route>
+        
         </Routes>
     </div>
   );
