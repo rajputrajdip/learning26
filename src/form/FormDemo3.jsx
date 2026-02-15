@@ -14,12 +14,26 @@ console.log("errors...",errors);
     min:{
       value:18,
       message:"minimum age is must be 18"
-    },
+    },  
     max:{
       value:50,
       message:"maximum length is 50"
     }
 
+  },
+  addressValidator:{
+    required:{
+      value:true,
+      message:"address is require"
+    },
+    minLength:{
+      value:10,
+      message:"minimum length of address is 10 character"
+    },
+    maxLength:{
+      value:30,
+      message:"maximum length of address is 30 character "
+    }
   }
  }
 
@@ -43,6 +57,11 @@ const submitHandler = (data)=>{
             <label>age</label>
             <input type='text' {...register("age",validationSchema.ageValidator)}/>
             {errors.age && errors.age.message}
+          </div>
+          <div>
+            <label>address</label>
+            <input type='text' {...register("address",validationSchema.addressValidator)}></input>
+            {errors.address && errors.address.message}
           </div>
           <div>
             <input type="Submit" />
