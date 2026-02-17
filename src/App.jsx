@@ -20,6 +20,9 @@ import { FormDemo1 } from './form/FormDemo1';
 import { FormDemo2 } from './form/FormDemo2';
 import { FormDemo3 } from './form/FormDemo3';
 import { FormDemo4 } from './form/FormDemo4';
+import { ApiDemo1 } from './api/apidemo1';
+
+
 
 //import './App.css'
 
@@ -49,7 +52,8 @@ var Rajdip={
         <Route path="/Formdemo2"element={<FormDemo2/>}></Route>
         <Route path="/Formdemo3"element={<FormDemo3/>}></Route>
         <Route path="/Formdemo4"element={<FormDemo4/>}></Route>
-        
+        <Route path="/ApiDemo1" element={<ApiDemo1/>}></Route>
+    
         </Routes>
     </div>
   );
