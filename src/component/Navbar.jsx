@@ -14,7 +14,7 @@ import { Link } from 'react-router-dom'
                     <li class="nav-item active">
                         <Link class="nav-link" to="/netflixhome"> Home <span class="sr-only"></span></Link>
                     </li>
-                    <li class="nav-item">
+                    {/* <li class="nav-item">
                         <Link class="nav-link" to="/netflixshow">TV Shows</Link>
                     </li>
                     <li class="nav-item">
@@ -31,7 +31,7 @@ import { Link } from 'react-router-dom'
                     </li>
                     <li class="nav-item">
                         <Link class="nav-link" to="/Team">Team</Link>
-                    </li>
+                    </li> */}
                     <li class="nav-item">
                        <Link class="nav-link" to="/usestatedemo1">Usestatedemo1</Link> 
                     </li>
@@ -59,8 +59,12 @@ import { Link } from 'react-router-dom'
                     <li class="nav-item">
                         <Link class="nav-link" to="/apidemo1">ApiDemo1</Link>
                     </li>  
-                       
-                                    
+                    <li class="nav-item">
+                        <Link class="nav-link" to="/omdbmovie">OmdbMovie</Link>
+                    </li> 
+                    <li class="nav-item">
+                        <Link class="nav-link" to="/ApiDemo2">APiDemo2</Link>
+                    </li>            
                 </ul>
                
             </div>
