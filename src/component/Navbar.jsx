@@ -63,7 +63,10 @@ import { Link } from 'react-router-dom'
                         <Link class="nav-link" to="/omdbmovie">OmdbMovie</Link>
                     </li> 
                     <li class="nav-item">
-                        <Link class="nav-link" to="/ApiDemo2">APiDemo2</Link>
+                        <Link class="nav-link" to="/apidemo2">APiDemo2</Link>
+                    </li> 
+                     <li class="nav-item">
+                        <Link class="nav-link" to="/apidemo3">APiDemo3</Link>
                     </li>            
                 </ul>
                

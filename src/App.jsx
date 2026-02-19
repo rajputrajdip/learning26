@@ -23,7 +23,8 @@ import { FormDemo4 } from './form/FormDemo4';
 import { ApiDemo1 } from './api/apidemo1';
 import { OmdbMovie } from './api/OmdbMovie';
 import {MovieDetail}from './api/MovieDetail';
-
+import { ApiDemo2 } from './api/ApiDemo2';
+import { ApiDemo3 } from './api/ApiDemo3';
 //import './App.css'
 
 function App() {
@@ -55,7 +56,8 @@ var Rajdip={
         <Route path="/ApiDemo1" element={<ApiDemo1/>}></Route>
         <Route path="/omdbmovie" element={<OmdbMovie/>}></Route>
         <Route path="/Movie/:id" element={<MovieDetail/>}></Route>
-        {/* <Route path="/ApiDemo2" element={<ApiDemo2/>}></Route> */}
+        <Route path="/apidemo2" element={<ApiDemo2/>}></Route>
+        <Route path="/apidemo3" element={<ApiDemo3/>}></Route>
         
         </Routes>
     </div>
